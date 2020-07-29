@@ -12,9 +12,9 @@ const image = require('./controllers/image');
 const db = knex({
 	client: 'pg',
 	connection: {
-		host : '127.0.0.1',
+		host : 'postgresql-sinuous-05973',
 		user : 'postgres',
-		password : 'rudra007',
+		password : '',
 		database : 'smartbrain'
 	}
 });
